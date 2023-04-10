@@ -1,1 +1,1 @@
-tree .git -> gives the structure of .git folder
+1. tree .git -> gives the structure of .git folder
