@@ -37,3 +37,5 @@ press 'q'.
 11. git restore <file name> -> it removes all file changes from the staging area to be committed. This can 
 be useful, if we did some dirty piece of code and now no more want it. Instead of deleting every change
 line by line, we can restore it or you can say restore last clean version of the file.
+
+12. git restore --staged <file name> -> It removes file from file changes from staging area to the working area.
