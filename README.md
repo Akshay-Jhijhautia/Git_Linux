@@ -1,6 +1,6 @@
-Hi, this is a demo file. This is created just for the purpose of git tutorial
+Hi, this is a demo file. This is created just for the purpose of git tutorial.
 
-Important git commands
+Important git commands : 
 
 Repository -> It means git projects
 
