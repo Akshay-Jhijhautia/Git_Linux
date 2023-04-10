@@ -43,7 +43,10 @@ This only works if changes are in your staging area.
 
 13. When we do 'git add <filename>' then changes move from working area to the staging area.
 
-14. Difference between git rm and git restore
+14. Difference between git rm and git restore(git rm --cached <filename>)
 ans: if you want to move the whole file back to the untracked state, then we do git rm.
 Otherwise if we just want to changes to be moved in working area and staging area, 
 then we do git restore.
+
+15. git diff <commit id 1> <commit id 2> -> compares two commits, and gives the difference of all file changes,
+between two commits.
