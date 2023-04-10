@@ -53,4 +53,13 @@ then we do git restore.
 15. git diff <commit id 1> <commit id 2> -> compares two commits, and gives the difference of all file changes,
 between two commits. 
 
-16. git remote -> Helps to connect two repositories, i.e connect local repository to git hub repository
+16. git diff <filename> -> we can track changes in the file
+
+17. git remote -> Helps to connect two repositories, i.e connect local repository(git init creates local repository),
+to git hub repository, when we type this command it gives the name of the remote connection.
+
+18. git remote add -> create a new remote repository connection.
+
+19. origin -> it is just a name of the remote connection, we can write anything instead of origin
+
+20. git remote rm -> To remove remote connection between two repositories.
