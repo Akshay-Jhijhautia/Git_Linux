@@ -82,3 +82,11 @@ Repository -> It means git projects
 
 28. git pull <remote name> <branch name> -> downloads latest changes from the branch of the mentioned remote
     in your local repo.
+
+## Recommended Practices
+
+    - make changes
+    - git add <file name>
+    - git commit
+    - git pull
+    - git push
