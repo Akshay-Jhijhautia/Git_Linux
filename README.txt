@@ -31,3 +31,7 @@ changes and creates a version out of it.
 
 9. git commit -> registers staging changes to a commit.
 
+10. git log -> lists down all the commits of the repository. If you want to exit out of git prompt
+press 'q'.
+
+
