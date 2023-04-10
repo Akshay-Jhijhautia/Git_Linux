@@ -90,5 +90,3 @@ Repository -> It means git projects
     - git commit
     - git pull
     - git push
-
-testing changes
