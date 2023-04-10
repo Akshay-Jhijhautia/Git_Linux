@@ -56,7 +56,7 @@ between two commits.
 16. git diff <filename> -> we can track changes in the file
 
 17. git remote -> Helps to connect two repositories, i.e connect local repository(git init creates local repository),
-to git hub repository, when we type this command it gives the name of the remote connection.
+to git hub repository, when we type this command it gives the names all the of the remote connections.
 
 18. git remote add -> create a new remote repository connection.
 
@@ -65,3 +65,12 @@ to git hub repository, when we type this command it gives the name of the remote
 20. git remote rm -> To remove remote connection between two repositories.
 
 21. Every Commit is a Version.
+
+22. git remote add <name of remote> <link of remote> -> This command helps us to add a new link to the 
+remote repo and give a name to it.
+
+23. git remote rm <name of remote> -> This command deletes a remote connection.
+
+24. git remote rename <old name> <new name> -> This command renames the remote connection.
+
+25. Note : The name of the remote connection is always used to establish communication between the repositories.
