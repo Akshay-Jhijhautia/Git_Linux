@@ -63,3 +63,5 @@ to git hub repository, when we type this command it gives the name of the remote
 19. origin -> it is just a name of the remote connection, we can write anything instead of origin
 
 20. git remote rm -> To remove remote connection between two repositories.
+
+21. Every Commit is a Version.
