@@ -2,6 +2,8 @@ Hi, this is a demo file. This is created just for the purpose of git tutorial
 
 Important git commands
 
+Repository -> It means git projects
+
 1. git init -> Powers your folder to be managed by git, and initialises a new empty 
 repository. It also creates a .git folder that has all the relevant logic to manage 
 versions of your project.
@@ -29,7 +31,7 @@ And the files in this area, git already manages them and knows their version his
 8. commit -> Commit is a particular version of the project. It captures a snapshot of the project's staged
 changes and creates a version out of it.
 
-9. git commit -m <message>-> registers staging changes to a commit.
+9. git commit -m <message> -> registers staging changes to a commit.
 
 10. git log -> lists down all the commits of the repository. If you want to exit out of git prompt
 press 'q'.
@@ -49,4 +51,6 @@ Otherwise if we just want to changes to be moved in working area and staging are
 then we do git restore.
 
 15. git diff <commit id 1> <commit id 2> -> compares two commits, and gives the difference of all file changes,
-between two commits.
+between two commits. 
+
+16. git remote -> Helps to connect two repositories, i.e connect local repository to git hub repository
