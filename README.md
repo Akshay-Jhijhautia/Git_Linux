@@ -78,4 +78,6 @@ Repository -> It means git projects
 26. git add <file 1> <file 2> <file 3> -> this command will add multiple file changes together in the
     staging area.
 
-27. git add. -> this command will add all files from working repositories to staging area
+27. git add. -> this command will add all files from working repositories to staging area.
+
+28. git clone ->
