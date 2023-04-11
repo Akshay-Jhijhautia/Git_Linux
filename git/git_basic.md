@@ -68,6 +68,8 @@ Repository -> It means git projects
 
 29. `rm -rf <folder name>` -> to delete entire folder with its contents
 
+30. `git clone link` -> downloads repository to your local system
+
 ## Recommended Practices
 
     - make changes
