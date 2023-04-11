@@ -23,3 +23,5 @@ Note : Stash is maintained in LIFO way, like stack data structure. If we want to
 9. `git stash clear` -> removes all the stashes
 
 10. `git stash save "<message>"` -> to add a new message while stashing the file.
+
+11. `git commit --amend` -> to change the files, without doing any further commits.
