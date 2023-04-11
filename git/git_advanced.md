@@ -32,6 +32,18 @@ Note : Stash is maintained in LIFO way, like stack data structure. If we want to
 
 14. `git checkout --<filename>` -> If we do git checkout on a file, it will overwrite working area file with staging are file, so we will lose all of the changes, that was actually in the working area.
 
-15. `git checkout 04fc18764255346a658940c998e08098d74eaf7e` -- <file name-> If we do git checkout on a commit using a commit id, it will make copies to both working area and staging area from the corresponding commit, so whatever changes we have in that particular commit, those changes are going to come back.
+15. `git checkout commitid -- <file name->` -> If we do git checkout on a commit using a commit id, it will make copies to both working area and staging area from the corresponding commit, so whatever changes we have in that particular commit, those changes are going to come back.
 
 Note: To revert back the changes, or to revert a particular file to its previous state, in such a case git checkout commands is really helpfull.
+
+16. `git clean -f` -> it will clean the working area, by deleting the untracked files.
+
+16a. `git clean --dry-run` -> will inform you of the files that will be deleted.
+
+17. `git clean -d --dry-run` -> this will inform, what folders/directories will also get deleted.
+
+18. `git clean -d -f` -> will remove untracked files and folders as well.
+
+19. `git checkout commitid` -> it detaches head from the branch, instead head points to a particular commit.
+
+20. `git switch -` -> it reverses the point 19, i.e. now head points to a particualar branch
