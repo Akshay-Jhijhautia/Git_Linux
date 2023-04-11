@@ -47,3 +47,12 @@ Note: To revert back the changes, or to revert a particular file to its previous
 19. `git checkout commitid` -> it detaches head from the branch, instead head points to a particular commit.
 
 20. `git switch -` -> it reverses the point 19, i.e. now head points to a particualar branch
+
+21. `git log --since="yesterday`
+22. `git log --since="5 minute ago`
+23. `git log --grep=second` -> grep is used for pattern matching, it will return commit which has string "second" in it.
+24. `git log --since="1.minute`
+25. `git log --since="10.minute`
+26. `git log commitid^n` -> it will give the nth parent of that particular commit.
+27. `git log commitid~n` -> this will give us nth node/parent of that particular commit.
+28. `git merge` -> it merges two branches, so one commit can have two heads/parents.
