@@ -66,13 +66,11 @@ Repository -> It means git projects
 
 28. `git pull <remote name> <branch name>` -> downloads latest changes from the branch of the mentioned remote in your local repo.
 
-29. `rm -rf <folder name>` -> to delete entire folder with its contents
+29. `git clone link` -> downloads repository to your local system
 
-30. `git clone link` -> downloads repository to your local system
+30. `git ls-files` -> gives the list of files in the staging area.
 
-31. `git ls-files` -> gives the list of files in the staging area.
-
-31a. `git ls-files -s`
+30a. `git ls-files -s`
 
 ## Recommended Practices
 
