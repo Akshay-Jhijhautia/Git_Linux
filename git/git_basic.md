@@ -70,6 +70,10 @@ Repository -> It means git projects
 
 30. `git clone link` -> downloads repository to your local system
 
+31. `git ls-files` -> gives the list of files in the staging area.
+
+31a. `git ls-files -s`
+
 ## Recommended Practices
 
     - make changes
