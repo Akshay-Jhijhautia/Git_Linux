@@ -12,4 +12,8 @@ Note : Using branches we can work on a piece of code, without hampering another 
 
 6. `git checkout <branch name>` -> to switch between branches
 
+6a. `git switch <branch name>` -> same a last point
+
 7. `git log --all --decorate --oneline --graph` -> to view entire branch structure
+
+8. `git branch -r` -> to display all remote branches, i.e branches not on local system, but in the github

@@ -53,6 +53,9 @@ Note: To revert back the changes, or to revert a particular file to its previous
 23. `git log --grep=second` -> grep is used for pattern matching, it will return commit which has string "second" in it.
 24. `git log --since="1.minute`
 25. `git log --since="10.minute`
+
 26. `git log commitid^n` -> it will give the nth parent of that particular commit.
+
 27. `git log commitid~n` -> this will give us nth node/parent of that particular commit.
+
 28. `git merge` -> it merges two branches, so one commit can have two heads/parents.
