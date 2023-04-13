@@ -14,6 +14,8 @@ Note : Using branches we can work on a piece of code, without hampering another 
 
 6a. `git switch <branch name>` -> same a last point
 
-7. `git log --all --decorate --oneline --graph` -> to view entire branch structure
+7. `git checkout -b <branch name 1> <branch name 2>` to create a branch, branch name 1, from the latest commit of branch name 2.
 
-8. `git branch -r` -> to display all remote branches, i.e branches not on local system, but in the github
+8. `git log --all --decorate --oneline --graph` -> to view entire branch structure
+
+9. `git branch -r` -> to display all remote branches, i.e branches not on local system, but in the github
