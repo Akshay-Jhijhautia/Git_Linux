@@ -1,5 +1,3 @@
-Hi, this is a demo file. This is created just for the purpose of git tutorial.
-
 Important git commands -->
 
 Repository -> It means git projects
