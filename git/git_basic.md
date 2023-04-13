@@ -40,7 +40,9 @@ Repository -> It means git projects
 
 15. `git diff <commit id 1> <commit id 2>` -> compares two commits, and gives the difference of all file changes, between two commits.
 
-16. `git diff <filename>` -> we can track changes in the file
+16. `git diff <filename>` -> we can track changes in the file, difference between working area and staging area.
+
+16a. `git diff --staged <filename>` -> difference between staging area and last commit.
 
 17. `git remote` -> Helps to connect two repositories, i.e connect local repository(git init creates local repository), to git hub repository, when we type this command it gives the names all the of the remote connections.
 
