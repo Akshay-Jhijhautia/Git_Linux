@@ -76,7 +76,7 @@ Repository -> It means git projects
 
 ## Recommended Practices
 
-    - make changes
+    - make changes to the file
     - git add <file name>
     - git commit
     - git pull
