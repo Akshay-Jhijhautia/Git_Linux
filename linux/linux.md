@@ -69,6 +69,16 @@ Shell Scripting = It is a computer program designed to be run by a Unix shell, a
 
 25. `tar xf archieve1.zip -C <folder name>` -> to unzip the contents of a zip file to a particular folder.
 
+26. `history` -> history of commands that you have run
+
+27. `date` -> displays current date and time
+
+28. `expr 2+2` -> displays 2+2 on screen
+
+29.`wc <file name>` -> gives details of number of lines, words and no. of lines of a file.
+
+30.`diff <filename> <filename>` -> content difference between two files.
+
 # Vim
 
 1. `vim new_file.text` -> create/open a file in vim
