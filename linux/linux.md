@@ -26,7 +26,7 @@ Shell Scripting = It is a computer program designed to be run by a Unix shell, a
 7. `rm <filename>` -> removes/deletes the file
    rmdir <folder name> -> deletes a folder only if folder is empty
    rm -r <folder name> -> deletes a folder along with its the files contained in it.
-   rm -rf <folder name> -> forcefull delete of folder, along with its contents. Do not use it.
+   rm -rf <folder name> -> forcefull delete of folder, along with its contents. Do not use it. To remove non-empty directories and all the files without being prompted, use rm with the -r (recursive) and -f options:
 
 8. `cd <folder name>` -> change directory
    cd.. -> one step back
@@ -37,7 +37,7 @@ Shell Scripting = It is a computer program designed to be run by a Unix shell, a
 9. `~` -> this refers to the home directory
    cat ~/main.dart
 
-10. `Relative path` -> It describes the location, of a file/folder with respect to current folder. Whereas in an absolute path we mention the location from home directory or root directory. When you give absolure path of a file or folder that means you will give the whole path of that file or folder, whereas in the relative path you do jumps with respect to the current folder.
+10. `Relative path` -> It describes the location, of a file/folder with respect to current folder. Whereas in an absolute path we mention the location from home directory or root directory. When you give absolute path of a file or folder that means you will give the whole path of that file or folder, whereas in the relative path you do jumps with respect to the current folder.
 
 11. `clear` -> clears the working space
 
@@ -79,9 +79,39 @@ Shell Scripting = It is a computer program designed to be run by a Unix shell, a
 
 30.`diff <filename> <filename>` -> content difference between two files.
 
-31. `mv <old folder name> <new folder name>` -> to rename old folder to new folder
+31. `mv <old folder name> <new folder name>` -> to rename old folder to new folder, this also works to rename a file.
 
 32. `mv <path of file> <path of file>` -> to move file from one location to another location
+
+33. `rm *.log` -> to delete all log files in the current directory
+
+34. `curl -O <link>` -> to download content using terminal
+
+35. `grep -o -i harry harry_potter.txt | wc -l` -> to count number of times a word harry appears in file harry_potter.txt
+
+36. `cat -n filename | grep -A100 '\b100\b'` -> display lines from 100 - 200 in a text file.
+
+37 `tr ' ' '\n' < harry_potter.txt | sort | uniq -c | wc -l` -> to count number of unique words present in a text file.
+
+38. `pidof firefox` -> to check process id of the browser
+
+39. `ps -e | grep 'firefox'` -> to check parent process id of browser
+
+40. `kill -9 <pid of browser>` -> to stop/kill a browser from terminal
+
+41. `ps -eo pid,comm,%cpu | sort -rk 3 | head` -> to check top 10 cpu consuming processes
+
+42. `ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%mem | head` -> to check top 10 processes consuming highest memory.
+
+43. `netstat` -> Display all active connections and the corresponding TCP / UDP ports
+
+44. `sudo netstat -ano -p tcp` -> to check the pid of processes running on particular ports
+
+45. `sudo apt purge <package name>` -> to uninstall a package from linux
+
+46. `ip a` -> to get your local ip address
+
+47. `ping google` -> to check the ip of google
 
 # Vim
 
