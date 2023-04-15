@@ -79,6 +79,10 @@ Shell Scripting = It is a computer program designed to be run by a Unix shell, a
 
 30.`diff <filename> <filename>` -> content difference between two files.
 
+31. `mv <old folder name> <new folder name>` -> to rename old folder to new folder
+
+32. `mv <path of file> <path of file>` -> to move file from one location to another location
+
 # Vim
 
 1. `vim new_file.text` -> create/open a file in vim
