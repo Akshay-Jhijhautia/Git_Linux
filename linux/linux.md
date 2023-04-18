@@ -38,6 +38,9 @@ Shell Scripting = It is a computer program designed to be run by a Unix shell, a
    cat ~/main.dart
 
 10. `Relative path` -> It describes the location, of a file/folder with respect to current folder. Whereas in an absolute path we mention the location from home directory or root directory. When you give absolute path of a file or folder that means you will give the whole path of that file or folder, whereas in the relative path you do jumps with respect to the current folder.
+    ex. cd ../udemy
+
+10a. `absolute path` -> /Users/sachin/Code/Udemy, it is the absolute path.
 
 11. `clear` -> clears the working space
 
