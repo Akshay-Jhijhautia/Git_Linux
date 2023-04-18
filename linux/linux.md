@@ -53,6 +53,7 @@ Shell Scripting = It is a computer program designed to be run by a Unix shell, a
 15. `grep` -> used for string/substring matching/search.
 
 16. `ps aux` -> gives the list of all the processes that are currently running.
+    16a. `ps aux | grep python` -> lists all the processes running with python name, we can also find other details of the process.
 
 17. `>` -> dumps the output of one command to a file. The entire previous date of other file gets replaced. ex pwd > test.txt
 
