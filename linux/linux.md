@@ -8,12 +8,12 @@ Shell Scripting = It is a computer program designed to be run by a Unix shell, a
 # Important commands for linux
 
 1. `mkdir <>` -> creates a new folder.
+   ex. mkdir -p a/b/c - to create directory in multiple files
 2. `touch <>` -> creates a new blank file.
 3. `cat <filename>` -> enables to read the contents of the file.
 4. `pwd` -> current working directory.
 
-5. `echo > text.txt "Hi"` -> // Writes content Hi in text.txt file, if we write echo again then
-   it will delete previous content, and write new content in that file.
+5. `echo > text.txt "Hi"` -> // Writes content Hi in text.txt file, if we write echo again then, it will delete previous content, and write new content in that file.
 
 5a. `echo "Hello world"` -> This acts a print statement for terminal, similar to console.log in javascript
 
