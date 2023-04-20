@@ -22,6 +22,7 @@ Shell Scripting = It is a computer program designed to be run by a Unix shell, a
    ls -a -> shows hidden folders
    ls -lh -> will also get the size of the file
    ls > text.txt -> instead of showing result on window, it will dump the result in text.txt file.
+   lsof -i:8000 -> gives the pid of the process running on port 8000, or any other desirable port.
 
 7. `rm <filename>` -> removes/deletes the file
    rmdir <folder name> -> deletes a folder only if folder is empty
@@ -53,7 +54,10 @@ Shell Scripting = It is a computer program designed to be run by a Unix shell, a
 15. `grep` -> used for string/substring matching/search.
 
 16. `ps aux` -> gives the list of all the processes that are currently running.
-    16a. `ps aux | grep python` -> lists all the processes running with python name, we can also find other details of the process.
+
+16a. `ps aux | grep python` -> lists all the processes running with python name, we can also find other details of the process.
+
+16b `ps aux | grep -i python` -> ignores case sensitive, will give result of
 
 17. `>` -> dumps the output of one command to a file. The entire previous date of other file gets replaced. ex pwd > test.txt
 
@@ -101,7 +105,13 @@ Shell Scripting = It is a computer program designed to be run by a Unix shell, a
 
 39. `ps -e | grep 'firefox'` -> to check parent process id of browser
 
-40. `kill -9 <pid of browser>` -> to stop/kill a browser from terminal
+40. `kill -9 <pid of process>` -> to stop/kill a browser/process from terminal.
+
+40a. `kill -2 <pid of process>` -> it interupts the process.
+
+#Note - -9 and -2 are signals, there are other signals also.
+
+40b. `kill <pid of process>` -> it terminates the process.
 
 41. `ps -eo pid,comm,%cpu | sort -rk 3 | head` -> to check top 10 cpu consuming processes
 
@@ -116,6 +126,10 @@ Shell Scripting = It is a computer program designed to be run by a Unix shell, a
 46. `ip a` -> to get your local ip address
 
 47. `ping google` -> to check the ip of google
+
+48. `python3 -m http.server 8000` -> to run python server on port 8000, or any other specific port.
+
+49. `which node` -> gives details of where the process node is present, it gives the exact/absolute path. It also works with other processes. ex. `which code`, `which git`
 
 # Vim
 
