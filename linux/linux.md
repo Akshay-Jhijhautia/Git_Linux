@@ -131,6 +131,10 @@ Shell Scripting = It is a computer program designed to be run by a Unix shell, a
 
 49. `which node` -> gives details of where the process node is present, it gives the exact/absolute path. It also works with other processes. ex. `which code`, `which git`
 
+50. `open .` -> opens the current directory
+
+51. `open ..` -> opens the parent directory
+
 # Vim
 
 1. `vim new_file.text` -> create/open a file in vim
