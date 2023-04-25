@@ -1,4 +1,4 @@
-1. `git merge <branch name` -> merges the branch to the feature branch, it creates a commit of merge, everytime you merge the branches.
+1. `git merge <branch name>` -> merges the branch to the feature branch, it creates a commit of merge, everytime you merge the branches.
 
 2. `git rebase <branch name>` -> more cleaner way to merge two branches together, it will create a copy of feature infront of master, and actually copy our changes there, and moves the master to tip of copied feature branch. All branch commits will be copied infront of master, and there is a way to squash all the commits to a single commit, so only one one commit will be there.
 

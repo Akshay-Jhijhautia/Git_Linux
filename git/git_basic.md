@@ -8,7 +8,7 @@ Repository -> It means git projects
 
 2. `git status` -> status of files/git in the folder.
 
-3. `working area` -> There can be bunch of files that are not currently handled by git.It means that changes done or to be done in those files are not managed by git yet. A file which is in the working area is considered to be not in the staging area. When we do 'git status' and we see a bunch of untracked files, then these are actually called to be in the working area.
+3. `working area` -> There can be bunch of files that are not currently handled by git.It means that changes done or to be done in those files are not tracked by git yet. A file which is in the working area is considered to be not in the staging area. When we do 'git status' and we see a bunch of untracked files, then these are actually called to be in the working area.
 
 4. `staging area` -> What all files are going to be part of the next version that we will create. This staging area is the place where git knows what changes will be done from the last version to the next version.
 
@@ -27,7 +27,7 @@ Repository -> It means git projects
 
 11. `git restore <file name>` -> it removes all file changes from the staging area to be committed. This can be useful, if we did some dirty piece of code and now no more want it. Instead of deleting every change line by line, we can restore it or you can say restore last clean version of the file.
 
-12. `git restore --staged <file name>` -> It removes file from file changes from staging area to the working area. This only works if changes are in your staging area.
+12. `git restore --staged <file name>` -> It removes file from file changes from staging area to the working area. This only works if file is in staging area.
 
 13. When we do 'git add <filename>' then changes move from working area to the staging area.
 
@@ -42,7 +42,7 @@ Repository -> It means git projects
 
 16a. `git diff --staged <filename>` -> difference between staging area and last commit.
 
-17. `git remote` -> Helps to connect two repositories, i.e connect local repository(git init creates local repository), to git hub repository, when we type this command it gives the names all the of the remote connections.
+17. `git remote` -> Helps to connect two repositories, i.e connect local repository(git init creates local repository), to git hub/lab repository, when we type this command it gives the names all the of the remote connections.
 
 18. `git remote add` -> create a new remote repository connection.
 
