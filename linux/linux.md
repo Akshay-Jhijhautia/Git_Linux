@@ -23,6 +23,23 @@ Shell Scripting = It is a computer program designed to be run by a Unix shell, a
    ls -lh -> will also get the size of the file
    ls > text.txt -> instead of showing result on window, it will dump the result in text.txt file.
    lsof -i:8000 -> gives the pid of the process running on port 8000, or any other desirable port.
+   ls -l <file name> -> to check details of a particular file in that folder
+
+# Permissions :
+
+- rwx rwx rwx -> filetype user group others
+
+1. - -> This represents file type
+2. r -> read
+3. w -> write
+4. x -> execute(it means that user can run the file, this option is mainly used for running scripts)
+5. chmod [permission] [file_name] -> command used to change permission of a file.
+   ex. chmod u=rw,g=r,o=r test.txt -> to change permission using symbolic mode
+   ex. chmod 644 test.txt -> to change persission in number mode
+   4 - read, write - 2, execute - 1, no permission - 0, 7- (read, write and execute permission), 6 (read and write priviledges), 4 (read priviledges)
+
+chown [user_name] [file_name] -> change file ownership
+chgrp [group_name] [file_name] -> to change group ownershio
 
 7. `rm <filename>` -> removes/deletes the file
    rmdir <folder name> -> deletes a folder only if folder is empty
