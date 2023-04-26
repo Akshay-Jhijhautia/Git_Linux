@@ -153,6 +153,9 @@ chgrp [group_name] [file_name] -> to change group ownershio
 
 51. `open ..` -> opens the parent directory
 
+52. `google-chrome` -> starts/opens google chrome browser
+    ex. `firefox` -> starst/opens firefox browser
+
 # Vim
 
 1. `vim new_file.text` -> create/open a file in vim
