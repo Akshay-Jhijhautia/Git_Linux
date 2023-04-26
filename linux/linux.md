@@ -66,7 +66,8 @@ chgrp [group_name] [file_name] -> to change group ownershio
 
 13. `head -n 10 <file name>` -> gives the first 10 lines of the file
 
-14. `|` -> pipe character, what ever is the result of first command is given as a input to second command. ex ls | grep -> result of ls is given as input to grep command.
+14. `|` -> pipe character, what ever is the result of first command is given as a input to second command.
+    ex. ls | grep -> result of ls is given as input to grep command.
 
 15. `grep` -> used for string/substring matching/search.
 
@@ -84,7 +85,7 @@ chgrp [group_name] [file_name] -> to change group ownershio
 
 20. `cp <path of file or file name> <path of file or file name>` -> helps to copy data of one file to anther file.
 
-21 `cp <path of file> <path of file>` -> move or cut-paste a file from one folder to another folder. This is also helpful in renaming a file.
+21. `cp <path of file> <path of file>` -> copy-paste a file from one folder to another folder. This is also helpful in renaming a file.
 
 22. `tar -cf archive.zip <file> <file>` -> combines both files, into one zip file.
 
@@ -100,9 +101,9 @@ chgrp [group_name] [file_name] -> to change group ownershio
 
 28. `expr 2+2` -> displays 2+2 on screen
 
-29.`wc <file name>` -> gives details of number of lines, words and no. of lines of a file.
+29. `wc <file name>` -> gives details of number of lines, words and no. of lines of a file.
 
-30.`diff <filename> <filename>` -> content difference between two files.
+30. `diff <filename> <filename>` -> content difference between two files.
 
 31. `mv <old folder name> <new folder name>` -> to rename old folder to new folder, this also works to rename a file.
 
@@ -126,7 +127,7 @@ chgrp [group_name] [file_name] -> to change group ownershio
 
 40a. `kill -2 <pid of process>` -> it interupts the process.
 
-#Note - -9 and -2 are signals, there are other signals also.
+# Note - -9 and -2 are signals, there are other signals also.
 
 40b. `kill <pid of process>` -> it terminates the process.
 
@@ -142,7 +143,7 @@ chgrp [group_name] [file_name] -> to change group ownershio
 
 46. `ip a` -> to get your local ip address
 
-47. `ping google` -> to check the ip of google
+47. `ping google.com` -> to check the ip of google
 
 48. `python3 -m http.server 8000` -> to run python server on port 8000, or any other specific port.
 
