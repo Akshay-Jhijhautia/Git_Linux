@@ -39,7 +39,7 @@ Shell Scripting = It is a computer program designed to be run by a Unix shell, a
    4 - read, write - 2, execute - 1, no permission - 0, 7- (read, write and execute permission), 6 (read and write priviledges), 4 (read priviledges)
 
 chown [user_name] [file_name] -> change file ownership
-chgrp [group_name] [file_name] -> to change group ownershio
+chgrp [group_name] [file_name] -> to change group ownership
 
 7. `rm <filename>` -> removes/deletes the file
    rmdir <folder name> -> deletes a folder only if folder is empty
@@ -141,7 +141,7 @@ chgrp [group_name] [file_name] -> to change group ownershio
 
 45. `sudo apt purge <package name>` -> to uninstall a package from linux
 
-46. `ip a` -> to get your local ip address
+46. `ip address` -> to get your local ip address
 
 47. `ping google.com` -> to check the ip of google
 
