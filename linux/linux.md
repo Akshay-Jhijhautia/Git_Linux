@@ -155,6 +155,9 @@ chgrp [group_name] [file_name] -> to change group ownership
 
 52. `google-chrome` -> starts/opens google chrome browser
     ex. `firefox` -> starst/opens firefox browser
+   
+53. `curl` -> it is used to make get requests using terminal. ex. http requests, etc
+   ex. curl http://google.com
 
 # Vim
 
